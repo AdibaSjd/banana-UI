@@ -11,7 +11,7 @@ function SearchMovies() {
         <div className="w-full bg-white">
         <NavBar/>
         <Header />
-        <div className="lg:flex mt-10 justify-center sm:flex-row ">
+        <div className="lg:flex mt-10 justify-center sm:flex-row  ">
           <ProductCard />
           <ProductCard />
           <ProductCard />

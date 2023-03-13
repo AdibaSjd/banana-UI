@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import SearchMovies from './components/Pages/SearchMovies';
 import SavedMovies from './components/Pages/SavedMovies';
+import Login from './components/Pages/Login';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
 <Routes>
   <Route path="/" element={<SearchMovies/>} />
   <Route path="/saved" element={<SavedMovies />} />
+  <Route path="/loging" element={<Login />}/>
 </Routes>
 </BrowserRouter> 
 )

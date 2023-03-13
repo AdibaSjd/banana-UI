@@ -37,7 +37,7 @@ export default function Navbar({ fixed }) {
             <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
+                  href="/"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75 text-black"></i><span className="ml-2">Search movies</span>
                 </a>
@@ -53,9 +53,10 @@ export default function Navbar({ fixed }) {
              
             
               <div className="flex items-center gap-2">
-                   <Button variant="gradient" color="brown" size="sm" className="hidden lg:inline-block">
+                  <a href="/loging"><Button variant="gradient" color="brown" size="sm" className="hidden lg:inline-block">
                        <span>Login</span>
               </Button>
+              </a>
                   <Button variant="gradient" color="brown" size="sm" className="hidden lg:inline-block">
                      <span>Log out</span>
                   </Button>
