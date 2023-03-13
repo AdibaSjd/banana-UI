@@ -12,6 +12,12 @@ function Login() {
             <div className='mb-20'>
                 <h1 className='flex justify-center font-bold '>Login</h1>
             </div>
+
+
+
+
+
+            
          
             <Footer />
         </div>

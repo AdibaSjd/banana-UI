@@ -57,9 +57,11 @@ export default function Navbar({ fixed }) {
                        <span>Login</span>
               </Button>
               </a>
+              <a href="/logout">
                   <Button variant="gradient" color="brown" size="sm" className="hidden lg:inline-block">
                      <span>Log out</span>
                   </Button>
+                </a>
                </div>
             
             </ul>
