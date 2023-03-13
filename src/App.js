@@ -1,30 +1,20 @@
 import React from 'react'
-import ProductCard from './components/ProductCard';
-import Header from './components/Header';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 import "./App.css";
 
-
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import SearchMovies from './components/Pages/SearchMovies';
+import SavedMovies from './components/Pages/SavedMovies';
 
 
 const App = () => {
   return (
-   
-    
-    <div className="w-full bg-white">
-      <NavBar/>
-      <Header />
-      <div className="lg:flex mt-10 justify-center sm:flex-row ">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-      </div>
-      <Footer/>
-    </div>
-
-
-  )
+  <BrowserRouter>
+<Routes>
+  <Route path="/" element={<SearchMovies/>} />
+  <Route path="/saved" element={<SavedMovies />} />
+</Routes>
+</BrowserRouter> 
+)
 }
 
 export default App
